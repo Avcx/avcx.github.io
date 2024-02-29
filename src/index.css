@@ -199,6 +199,11 @@ main {
   color: #0f084b;
 }
 
+a:hover {
+  background-color: #4f3e15;
+  color: white;
+}
+
 /* Projects */
 
 .project {
@@ -310,7 +315,8 @@ main {
   }
   .section-content {
     flex-direction: column;
-    min-width: 480px;
+    min-width: auto;
+    margin: 3rem 0;
   }
 
   .hero-card {
