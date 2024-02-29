@@ -30,7 +30,7 @@ const Header = () => {
           onClick={handleClick}
         ></button>
       </div>
-      <nav className={open ? "nav-hmbgr" : "nav-hmbgr open"}>
+      <nav className={open ? "nav-hmbgr open" : "nav-hmbgr"}>
         <ul onClick={handleClick}>
           <li>
             <a href="#about">About</a>
