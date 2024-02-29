@@ -118,13 +118,13 @@ h1 {
 
 h2 {
   font-size: 2.7rem;
-  font-weight: 300;
+  font-weight: 400;
   margin: 0px 0px;
 }
 
 h3 {
   font-size: 2.3rem;
-  font-weight: 300;
+  font-weight: 400;
   font-style: italic;
   margin: 0px 0px;
 }
@@ -136,6 +136,7 @@ h4 {
 
 p {
   font-size: 1.3rem;
+  font-weight: 300;
 }
 
 .section-content {
@@ -359,9 +360,5 @@ a:hover {
   }
   .prj-img {
     margin-bottom: 24px;
-  }
-
-  p {
-    font-weight: 300;
   }
 }
