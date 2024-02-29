@@ -360,4 +360,8 @@ a:hover {
   .prj-img {
     margin-bottom: 24px;
   }
+
+  p {
+    font-weight: 300;
+  }
 }
