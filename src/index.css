@@ -116,6 +116,13 @@ h1 {
   margin: 0px 0px;
 }
 
+img {
+  border: 2px solid rgba(0, 0, 0, 0.12);
+  margin: 0.25em;
+  max-width: 200px;
+  border-radius: 8px;
+}
+
 h2 {
   font-size: 2.7rem;
   font-weight: 400;
@@ -165,12 +172,6 @@ main {
   justify-content: space-between;
   align-items: center;
   padding: 2rem;
-}
-
-.hero img {
-  margin: 0.5em;
-  max-width: 200px;
-  border-radius: 8px;
 }
 
 .intro {
@@ -340,8 +341,8 @@ a:hover {
     justify-content: space-evenly;
   }
 
-  .prj-link li {
-    font-size: 1rem;
+  .prj-tech li {
+    font-size: 1.2rem;
   }
 
   .prj-desc {
