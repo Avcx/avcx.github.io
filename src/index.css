@@ -340,6 +340,10 @@ a:hover {
     justify-content: space-evenly;
   }
 
+  .prj-link li {
+    font-size: 1.2rem;
+  }
+
   .prj-desc {
     margin: auto;
   }
