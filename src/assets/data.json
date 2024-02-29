@@ -1,0 +1,49 @@
+{
+    "projects": [
+        {
+            "id": "0",
+            "project_name": "Employee Directory",
+            "description": "This application requests 'employee data' pulled from a server API, which is then parsed and  displayed on the page. ",
+            "technologies": ["HTML", "CSS", "Javascript", "API"],
+            "live_link": "https://avcx.github.io/5-employee-directory/",
+            "github_link": "https://github.com/Avcx/5-employee-directory",
+            "image_urls": ["/img/employee_directory-550x550.jpeg", "/img/employee_directory_1-1200x550.jpeg", "/img/employee_directory_2-1200x550.jpeg", "/img/employee_directory_3-1200x550.jpeg"]
+        },
+        {
+            "id": "1",
+            "project_name": "Phrase Hunter",
+            "description": "Ever played wheel of fortune? This game is quite similar. Well... Minus the whole \"winning money\" part of it, but who needs that anyway? In this game you have lives you lose with each wrong guess. Can you successful guess the phrase? This game uses classes to organize the logic of the game.",
+            "technologies": ["HTML", "CSS", "Javascript", "OOP"],
+            "live_link": "https://avcx.github.io/4-phrase-hunter-game/",
+            "github_link": "https://github.com/Avcx/4-phrase-hunter-game/",
+            "image_urls": ["/img/phrase_hunter-550x550.jpeg", "/img/phrase_hunter_1-1200x550.jpeg", "/img/phrase_hunter_2-1200x550.jpeg", "/img/phrase_hunter_3-1200x550.jpeg"]
+        },
+        {
+            "id": "2",
+            "project_name": "Interactive Form",
+            "description": "Forms are boring. Let's change that. Introducing... an interactive form! This form uses javascript and regex to validate the form fields allowing for more control over what the form accepts.",
+            "technologies": ["HTML", "CSS", "Javascript", "Accessibility"],
+            "live_link": "https://avcx.github.io/3-Interactive-Form/",
+            "github_link": "https://github.com/Avcx/3-Interactive-Form",
+            "image_urls": ["/img/interactive_form-550x550.jpeg", "/img/interactive_form_1-1200x550.jpeg", "/img/interactive_form_2-1200x550.jpeg", "/img/interactive_form_3-1200x550.jpeg"]
+        },
+        {
+            "id": "3",
+            "project_name": "TaskCrush",
+            "description": "This is a To-do list app that I created. One of the very first project I've ever made in my programming journey. It's very cliche, however, I had a lot of fun creating this app and attemping to make the user experience as optimized as possible.",
+            "technologies": ["HTML", "CSS", "Javascript"],
+            "live_link": "https://avcx.github.io/TaskCrush/",
+            "github_link": "https://github.com/Avcx/TaskCrush",
+            "image_urls": ["/img/taskcrush-550x550.jpeg", "/img/taskcrush_1-1200x550.jpeg", "/img/taskcrush_2-1200x550.jpeg", "/img/taskcrush_3-1200x550.jpeg"]
+        },
+        {
+            "id": "4",
+            "project_name": "Random Quote Generator",
+            "description": "An application that generates a random quote, with addition properties. This is a very simple project displaying my knowledge of web development basics.",
+            "technologies": ["HTML", "CSS", "Javascript"],
+            "live_link": "https://avcx.github.io/1-Random-Quote-Generator/",
+            "github_link": "https://github.com/Avcx/1-Random-Quote-Generator",
+            "image_urls": ["/img/random_quote_generator-550x550.jpeg", "/img/random_quote_generator_1-1200x550.jpeg", "/img/random_quote_generator_2-1200x550.jpeg", "/img/random_quote_generator_3-1200x550.jpeg"]
+        }
+    ]
+}
