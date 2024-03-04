@@ -199,7 +199,6 @@ main {
 
 .intro {
   padding-right: 1rem;
-  background-color: rgba(0, 0, 0, 0.01);
   border-radius: 15px;
   text-align: right;
   display: grid;
@@ -236,7 +235,6 @@ main {
 }
 
 .h-text {
-  background-color: rgba(0, 0, 0, 0.01);
   padding: 1rem;
   border-radius: 15px;
   margin: 0.5rem 0;
@@ -282,7 +280,6 @@ main {
 
 .cta-btn a,
 .nav_btn {
-  text-decoration: none;
   text-align: center;
   font-weight: 500;
   font-size: 2rem;
@@ -292,6 +289,16 @@ main {
   border-radius: 15px;
   padding: 7px 7px;
   color: white;
+}
+
+.cta-btn a {
+  font-size: 1.3rem;
+  text-decoration: none;
+  padding: 1rem 0.5rem;
+  text-align: center;
+  font-weight: 500;
+  display: block;
+  color: var(--text-color);
 }
 
 .cta-btn a:hover,
@@ -364,7 +371,7 @@ main {
 .prj-img {
   display: block;
   border: var(--secondary-color) 2px solid;
-  max-width: 18rem;
+  max-width: 19rem;
 }
 
 .prj-desc {
