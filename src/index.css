@@ -278,19 +278,6 @@ main {
   margin: 0;
 }
 
-.cta-btn a,
-.nav_btn {
-  text-align: center;
-  font-weight: 500;
-  font-size: 2rem;
-  display: block;
-  background-color: var(--primary-color);
-  width: 10rem;
-  border-radius: 15px;
-  padding: 7px 7px;
-  color: white;
-}
-
 .cta-btn a {
   font-size: 1.3rem;
   text-decoration: none;
@@ -298,6 +285,9 @@ main {
   text-align: center;
   font-weight: 500;
   display: block;
+  width: 10rem;
+  border-radius: 15px;
+  background-color: var(--primary-color);
   color: var(--text-color);
 }
 
