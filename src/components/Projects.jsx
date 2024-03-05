@@ -34,8 +34,9 @@ const Projects = () => {
   return (
     <section className="projects" id="projects">
       <div className="section-content">
-        <header>
+        <header id="top">
           <h1>Projects</h1>
+          <a href="/">X</a>
         </header>
         <div className="project-container">{projectArray[ID]}</div>
         <div></div>
