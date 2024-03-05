@@ -268,6 +268,7 @@ main {
 .skill-svg {
   width: 75%;
   height: 75%;
+  max-width: 90px;
   fill: var(--secondary-color);
 }
 
@@ -294,8 +295,11 @@ main {
 
 .cta-btn a:hover,
 .social-links a:hover,
-.prj-link a:hover {
+.prj-link a:hover,
+.nav-btn:hover,
+#top a:hover {
   background-color: rgba(0, 0, 0, 0.4);
+  cursor: pointer;
 }
 
 /* Projects */
@@ -324,6 +328,7 @@ main {
 .projects .section-content {
   background-color: #1a1a1d;
   color: white;
+  border-radius: 0;
 }
 
 .prj-link a,
@@ -459,9 +464,6 @@ main {
   .section-content {
     max-width: 1000px;
   }
-  .skill-svg {
-    max-width: 125px;
-  }
 }
 
 /* Large Tablet/Small Laptop */
@@ -481,6 +483,9 @@ main {
     background-color: rgba(0, 0, 0, 0.05);
     padding: 1rem;
     margin: 0.5rem 0;
+  }
+  .skill-svg {
+    max-width: 150px;
   }
 }
 
@@ -503,13 +508,13 @@ main {
   }
 }
 
-@media screen and (min-height: 775px) {
+@media screen and (min-height: 850px) {
   :root {
     font-size: 15px;
   }
 }
 
-@media screen and (min-height: 925px) {
+@media screen and (min-height: 975px) {
   :root {
     font-size: 18px;
   }
