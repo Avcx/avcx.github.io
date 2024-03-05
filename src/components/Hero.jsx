@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import headshot from "/img/hero.jpg";
 
 const Hero = () => {
@@ -104,7 +105,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="cta-btn">
-            <a href="/projects">Projects</a>
+            <Link to="/projects">Projects</Link>
           </div>
         </div>
       </div>

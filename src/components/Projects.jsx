@@ -1,6 +1,7 @@
 import React, { useMemo, useState } from "react";
 import data from "../assets/data.json";
 import Project from "./Project";
+import { Link } from "react-router-dom";
 
 const Projects = () => {
   const [ID, setID] = useState(0);
@@ -36,7 +37,7 @@ const Projects = () => {
       <div className="section-content">
         <header id="top">
           <h1>Projects</h1>
-          <a href="/">X</a>
+          <Link to="/">X</Link>
         </header>
         <div className="project-container">{projectArray[ID]}</div>
         <div></div>
