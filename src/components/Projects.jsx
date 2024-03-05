@@ -33,7 +33,10 @@ const Projects = () => {
     );
   });
   return (
-    <section className="projects" id="projects">
+    <section
+      className="projects animate__animated animate__fadeInUpBig animate__faster"
+      id="projects"
+    >
       <div className="section-content">
         <header id="top">
           <h1>Projects</h1>

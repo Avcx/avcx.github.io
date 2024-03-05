@@ -14,7 +14,7 @@ const Project = ({
   let buttons = "";
 
   return (
-    <div className="project">
+    <div className="project animate__animated animate__fadeIn animate__faster">
       <h2 className="prj-head">{name}</h2>
       <img className="prj-img" src={imgUrls[0]} alt={`Image of ${name}`} />
       <div className="prj-link">

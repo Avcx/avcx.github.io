@@ -4,7 +4,7 @@ import headshot from "/img/hero.jpg";
 
 const Hero = () => {
   return (
-    <section className="hero">
+    <section className="hero animate__animated animate__fadeInDownBig animate__faster">
       <div className="bg-img" />
       <div className="section-content">
         <img className="headshot" src={headshot} alt="Photo of Akiel" />
@@ -105,7 +105,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="cta-btn">
-            <Link to="/projects">Projects</Link>
+            <Link to="projects">Projects</Link>
           </div>
         </div>
       </div>
