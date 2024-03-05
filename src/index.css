@@ -451,12 +451,6 @@ main {
 
 /* Small Tablet/Large Phone */
 
-@media screen and (max-width: 400px) {
-  :root {
-    font-size: 8px;
-  }
-}
-
 @media screen and (min-width: 768px) {
   :root {
     font-size: 19px;
@@ -496,6 +490,12 @@ main {
 }
 
 /* Height Queries */
+
+@media screen and (max-height: 666px) {
+  :root {
+    font-size: 13px;
+  }
+}
 
 @media screen and (min-height: 667px) {
   :root {
