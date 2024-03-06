@@ -17,8 +17,12 @@ const Project = ({
       <h2 className="prj-head">{name}</h2>
       <img className="prj-img" src={imgUrls[0]} alt={`Image of ${name}`} />
       <div className="prj-link">
-        <a href={links.live}>Live</a>
-        <a href={links.git}>Github</a>
+        <a id="live" href={links.live}>
+          Live
+        </a>
+        <a id="git" href={links.git}>
+          Github
+        </a>
       </div>
       <ul className="prj-tech">
         {tech.map((kind) => (

@@ -357,6 +357,14 @@ main {
   background-color: var(--primary-color);
 }
 
+#live {
+  border-radius: 0 0 0 15px;
+}
+
+#git {
+  border-radius: 0 0 15px 0;
+}
+
 #top {
   display: flex;
   width: 100%;
@@ -401,6 +409,7 @@ main {
   display: block;
   border: var(--secondary-color) 2px solid;
   max-width: 19rem;
+  border-radius: 15px 15px 0 0;
 }
 
 .prj-desc {
