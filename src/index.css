@@ -13,6 +13,7 @@
   --simple-font: "Kanit", sans-serif;
   background-color: var(--accent-color);
   font-size: 13px;
+  overflow: hidden;
 }
 
 body {
@@ -23,7 +24,6 @@ body {
   font-style: normal;
   margin: 0;
   padding: 0;
-  overflow: hidden;
   min-width: 375px;
 }
 
@@ -526,6 +526,10 @@ main {
   }
   .bg-img {
     height: 15vh;
+  }
+
+  .cta-btn a {
+    bottom: 0;
   }
 }
 
