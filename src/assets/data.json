@@ -30,7 +30,7 @@
         {
             "id": "1",
             "project_name": "Phrase Hunter",
-            "description": "Ever played wheel of fortune? This game is quite similar. Well... Minus the whole \"winning money\" part of it, but who needs that anyway? In this game you have lives you lose with each wrong guess. Can you successful guess the phrase? This game uses classes to organize the logic of the game.",
+            "description": "Ever played wheel of fortune? This game is quite similar. Well... Minus the whole \"winning money\" part of it, but who needs that anyway? In this game you have lives you lose with each wrong guess. Can you successfully guess the phrase? This game uses classes to organize the logic of the game.",
             "technologies": ["HTML", "CSS", "Javascript", "OOP"],
             "live_link": "https://avcx.github.io/4-phrase-hunter-game/",
             "github_link": "https://github.com/Avcx/4-phrase-hunter-game/",

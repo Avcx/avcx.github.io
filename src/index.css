@@ -391,7 +391,7 @@ main {
   border-radius: 15px;
   background-color: var(--accent-color);
   padding: 0.25rem;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 100%;
   list-style: none;
   max-width: 700px;
@@ -517,7 +517,7 @@ main {
 
 @media screen and (max-height: 666px) {
   :root {
-    font-size: 13px;
+    font-size: 12px;
   }
 }
 
@@ -529,13 +529,13 @@ main {
 
 @media screen and (min-height: 850px) {
   :root {
-    font-size: 15px;
+    font-size: 14px;
   }
 }
 
 @media screen and (min-height: 975px) {
   :root {
-    font-size: 18px;
+    font-size: 17px;
   }
   .bg-img {
     height: 15vh;
@@ -548,7 +548,7 @@ main {
 
 @media screen and (min-height: 1130px) {
   :root {
-    font-size: 20px;
+    font-size: 19px;
   }
 }
 
