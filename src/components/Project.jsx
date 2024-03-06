@@ -1,5 +1,4 @@
 import React from "react";
-import { useMemo } from "react";
 
 const Project = ({
   id,
