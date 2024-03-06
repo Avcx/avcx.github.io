@@ -160,6 +160,7 @@ main {
   height: 102vh;
   border-radius: 12px;
 }
+
 /* Hero Card */
 
 .hero {
@@ -316,9 +317,7 @@ main {
 }
 .project {
   display: flex;
-  position: relative;
-  bottom: 2rem;
-  height: 90vh;
+  height: 80vh;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -357,20 +356,18 @@ main {
   display: flex;
   width: 100%;
   justify-content: space-between;
+  align-items: center;
 }
 
-#top a {
+#close {
+  position: static;
   text-decoration: none;
+  margin-top: 1rem;
   display: inline-block;
   font-family: var(--simple-font);
   font-weight: 600;
   font-size: 1.6rem;
-  text-align: center;
-  width: 4.75rem;
-  max-height: 4.75rem;
-  margin-top: 2rem;
-  padding: 1rem;
-  border-radius: 15px;
+  max-width: 4rem;
   color: white;
   background-color: var(--primary-color);
 }
@@ -407,7 +404,7 @@ main {
   font-size: 1.1em;
   padding: 0 2rem;
   align-self: center;
-  height: 8rem;
+  height: 9.25rem;
   margin: 0 2rem;
   overflow-y: scroll;
   margin-bottom: 1rem;

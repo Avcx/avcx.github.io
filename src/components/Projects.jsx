@@ -37,19 +37,24 @@ const Projects = () => {
   }, [projectArray]);
 
   return (
-    <section
-      className="projects animate__animated animate__fadeInUpBig animate__faster"
-      id="projects"
-    >
+    <>
+      <section className="projects animate__animated animate__fadeInUpBig animate__faster">
+        <div className="section-content">
+          <div className="project-card">
+            <header id="top">
+              <h1>Projects</h1>
+              <div className="cta-btn">
+                <Link id="close" to="/">
+                  X
+                </Link>
+              </div>
+            </header>
+            <div className="project-container">{projectArray[ID]}</div>
+          </div>
+        </div>
+      </section>
       <PreloadImages imgUrls={imgUrls} />
-      <div className="section-content">
-        <header id="top">
-          <h1>Projects</h1>
-          <Link to="/">X</Link>
-        </header>
-        <div className="project-container">{projectArray[ID]}</div>
-      </div>
-    </section>
+    </>
   );
 };
 
