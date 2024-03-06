@@ -43,7 +43,7 @@ const Projects = () => {
           <div className="project-card">
             <header id="top">
               <h1>Projects</h1>
-              <div className="cta-btn">
+              <div className="btn">
                 <Link id="close" to="/">
                   X
                 </Link>

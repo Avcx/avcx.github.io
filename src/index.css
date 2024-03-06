@@ -285,7 +285,8 @@ main {
   margin: 0;
 }
 
-.cta-btn a {
+.cta-btn a,
+#close {
   font-size: 1.3rem;
   position: relative;
   bottom: 2rem;
