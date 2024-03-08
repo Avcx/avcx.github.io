@@ -1,10 +1,19 @@
 {
     "projects": [ 
         {
+           "id": "6",
+            "project_name": "Course App",
+            "description": "This administrative application for keeping track of courses in a database. Allowing users to view, create, edit and delete courses in the database. Modification actions are restircted to registered users and courses can only be modified by their creator.\n\n The client uses React for UI in conjuction with React-Router-Dom for routing. While the API uses Express for authentication, database maangement and serving dynamic data to the client.",
+            "technologies": ["CSS", "React", "Express", "Squelize"],
+            "live_link": "https://course-app.up.railway.app/",
+            "github_link": "https://github.com/Avcx/10-course-app/",
+            "image_urls": ["/img/course_app-550x550.jpeg"]
+        },
+        {
             "id": "5",
             "project_name": "Gallery App",
-            "description": "This app makes an API call to the Flickr API. Allowing you to search for some cool photos without going to the actual site. How convenient!",
-            "technologies": ["HTML", "CSS", "Javascript", "API", "React"],
+            "description": "This is an application that allows its users to quickly search for images on the internet. The functionality of this application was created using the React.js library.\n\n The image data is pulled from the Flickr API based on the information provided from the search bar or nav links. The app uses React-Router-Dom to properly route states and components to the various paths it encounters.",
+            "technologies": ["CSS", "API", "React"],
             "live_link": "https://avcx.github.io/7-gallery-app/",
             "github_link": "https://github.com/Avcx/7-gallery-app",
             "image_urls": ["/img/gallery_app-550x550.jpg"]
@@ -12,7 +21,7 @@
         {
             "id": "2",
             "project_name": "Interactive Form",
-            "description": "Forms are boring. Let's change that. Introducing... an interactive form! This form uses javascript and regex to validate the form fields allowing for more control over what the form accepts.",
+            "description": "This project is an interactive form that uses various different methods of displaying information to the end user. It is designed for an excellent user experience.\n\n Whether the user is unable to use a operate a computer in a traditional sense, or trying to fill it to submit quickly. A good form should take into account the overall usability of the page by displaying feedback dynamically. Instantly giving the user an idea of what they did right or what they did wrong.",
             "technologies": ["HTML", "CSS", "Javascript", "Accessibility"],
             "live_link": "https://avcx.github.io/3-Interactive-Form/",
             "github_link": "https://github.com/Avcx/3-Interactive-Form",
@@ -21,7 +30,7 @@
         {
             "id": "0",
             "project_name": "Employee Directory",
-            "description": "This application requests 'employee data' pulled from a server API, which is then parsed and  displayed on the page. ",
+            "description": "This application requests 'employee data' pulled from a server API. This data  is then parsed and displayed on neat interactive cards. These cards can be clicked to allow more information to be displayed. ",
             "technologies": ["HTML", "CSS", "Javascript", "API"],
             "live_link": "https://avcx.github.io/5-employee-directory/",
             "github_link": "https://github.com/Avcx/5-employee-directory",
@@ -30,18 +39,16 @@
         {
             "id": "1",
             "project_name": "Phrase Hunter",
-            "description": "Ever played wheel of fortune? This game is quite similar. Well... Minus the whole \"winning money\" part of it, but who needs that anyway? In this game you have lives you lose with each wrong guess. Can you successfully guess the phrase? This game uses classes to organize the logic of the game.",
+            "description": "This is a fun, interactive game that has the player taking a crack at guessing the secret phrases.\n All the phrases are popular english idioms or proverbs that most people should be able to guess. This game uses classes to organize the logic of the game.",
             "technologies": ["HTML", "CSS", "Javascript", "OOP"],
             "live_link": "https://avcx.github.io/4-phrase-hunter-game/",
             "github_link": "https://github.com/Avcx/4-phrase-hunter-game/",
             "image_urls": ["/img/phrase_hunter-550x550.jpeg", "/img/phrase_hunter_1-1200x550.jpeg", "/img/phrase_hunter_2-1200x550.jpeg", "/img/phrase_hunter_3-1200x550.jpeg"]
         },
-       
-    
         {
             "id": "3",
             "project_name": "TaskCrush",
-            "description": "This is a To-do list app that I created. One of the very first project I've ever made in my programming journey. It's very cliche, however, I had a lot of fun creating this app and attemping to make the user experience as optimized as possible.",
+            "description": "One of the very first project I've ever made in my programming journey. A Simple ToDo list app. I had a lot of fun creating this app and attemping to make the user experience as optimized as possible.",
             "technologies": ["HTML", "CSS", "Javascript"],
             "live_link": "https://avcx.github.io/TaskCrush/",
             "github_link": "https://github.com/Avcx/TaskCrush",
