@@ -30,3 +30,4 @@ node_modules/.vite/deps/react_jsx-runtime.js
 node_modules/.vite/deps/react-dom_client.js
 node_modules/.vite/deps/react-dom_client.js.map
 node_modules/.vite/deps/react.js
+public/img/.DS_Store
