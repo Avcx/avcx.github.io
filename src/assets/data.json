@@ -4,7 +4,7 @@
            "id": "6",
             "project_name": "Course App",
             "description": "This administrative application for keeping track of courses in a database. Allowing users to view, create, edit and delete courses in the database. Modification actions are restircted to registered users and courses can only be modified by their creator.\n\n The client uses React for UI in conjuction with React-Router-Dom for routing. While the API uses Express for authentication, database maangement and serving dynamic data to the client.",
-            "technologies": ["CSS", "React", "Express", "Squelize"],
+            "technologies": ["CSS", "React.js", "Express.js", "Squelize"],
             "live_link": "https://course-app.up.railway.app/",
             "github_link": "https://github.com/Avcx/10-course-app/",
             "image_urls": ["/img/course_app-550x550.jpeg"]
@@ -13,11 +13,20 @@
             "id": "5",
             "project_name": "Gallery App",
             "description": "This is an application that allows its users to quickly search for images on the internet. The functionality of this application was created using the React.js library.\n\n The image data is pulled from the Flickr API based on the information provided from the search bar or nav links. The app uses React-Router-Dom to properly route states and components to the various paths it encounters.",
-            "technologies": ["CSS", "API", "React"],
+            "technologies": ["CSS", "API", "React.js"],
             "live_link": "https://avcx.github.io/7-gallery-app/",
             "github_link": "https://github.com/Avcx/7-gallery-app",
             "image_urls": ["/img/gallery_app-550x550.jpg"]
-        },    
+        },
+        {
+            "id": "7",
+            "project_name": "Library App",
+            "description": "This is an app for organizing a library's database of books. It allows the user to remove books, add books, and change information about them. The user can also search by Title, Authour, Year or Ganre. This app uses Express.js with the pug templating engine for functionality.",
+            "technologies": ["SQL", "Express.js", "CSS", "Pug"],
+            "live_link": "https://sql-library-app.up.railway.app/",
+            "github_link": "https://github.com/Avcx/8-sql-library-manager",
+            "image_urls": ["/img/sql_library_app-550x550.jpg"]
+        },  
         {
             "id": "2",
             "project_name": "Interactive Form",
